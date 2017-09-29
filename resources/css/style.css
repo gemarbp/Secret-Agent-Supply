@@ -1,0 +1,292 @@
+html{
+  font-size:18px;
+  background-color: white;
+
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.4em;
+}
+
+div {
+    display: block;
+}
+
+.company {
+    background-color: black;
+    color: white;
+
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+ .container span {
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-size: 18px;
+
+}
+.company .container {
+    display: flex;
+    align-items: center;
+    padding:0.66rem 0.5rem 0.66rem 0.5rem;
+
+}
+
+.company img {
+    height: 1.5em;
+    padding-right: 1rem;
+    padding-left: 0.5rem;
+}
+
+img {
+    border-style: none;
+}
+
+.main-banner {
+    background-image: url(../moto.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
+}
+
+.headline {
+
+    background-color: black;
+    color: white;
+    width: 20rem;
+    padding: 2rem 3rem;
+    position: relative;
+    top: 9rem;
+}
+
+.headline h4{
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.headline h1{
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 0.25rem;
+}
+
+
+
+
+
+
+nav {
+    background-color: firebrick;
+    color: white;
+    display: block;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 0rem;
+    list-style: none;
+    font-family: Helvetica;
+    font-size: 18px;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+
+.products, .business-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0rem 3rem 0rem;
+    font-size: 18px;
+}
+
+
+.product {
+    width: 30%;
+}
+
+.product-image {
+    border: 4px solid black;
+    padding: 2rem 0;
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.product-image img {
+    max-width: 8em;
+}
+
+img {
+    border-style: none;
+}
+
+
+.description {
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 18px;
+}
+
+.info {
+    width: 35%;
+}
+
+.info .title {
+    display: block;
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 18px;
+}
+
+footer .container{
+  background-color: black;
+  padding: 5rem 0px;
+  color: white;
+  margin-top: 4rem;
+  font-size: 18px;
+  font-family: Helvetica;
+}
+
+footer {
+  background-size: cover;
+  background-color: black;
+}
+
+@media only screen and (max-width: 1024px){
+body {
+    font-size: 16px;
+    }
+}
+
+
+@media only screen and (max-width: 1024px){
+.product {
+    width: 47%;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+.product.glasses {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 1024px){
+.mobile-nav {
+   display: block;
+   text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1024px){
+nav ul {
+    display: none;
+   }
+}
+
+
+@media only screen and (max-width: 470px){
+.main-banner {
+    height: 15em;
+   }
+ }
+
+ @media only screen and (max-width: 470px){
+.headline {
+    width: 100%;
+    top: 10em;
+    padding: 1em 2em;
+   }
+}
+
+@media only screen and (max-width: 470px){
+.headline h4 {
+    font-size: 0.77rem;
+  }
+}
+
+@media only screen and (max-width: 470px){
+.headline h1 {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 470px){
+.products, .business-info {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 470px){
+.product {
+    width: 90%;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 470px){
+.product.watch {
+   display: none;
+  }
+}
+@media only screen and (max-width: 470px){
+.product {
+   width: 90%;
+   margin: auto;
+  }
+}
+
+@media only screen and (max-width: 470px){
+.products, .business-info {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 470px){
+.info {
+    width: 90%;
+    margin: 0.5em auto;
+  }
+}
+
+@media only screen and (max-width: 470px){
+footer {
+    text-align: center;
+  }
+}
